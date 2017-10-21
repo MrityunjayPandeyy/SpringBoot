@@ -1,0 +1,53 @@
+{
+	"variables": [],
+	"info": {
+		"name": "SpringBoot",
+		"_postman_id": "1ae8cddb-606a-a0f6-3305-dc162e2d471f",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/alluser",
+			"request": {
+				"url": "http://localhost:8080/alluser",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/adduser",
+			"request": {
+				"url": "http://localhost:8080/adduser",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": " {\n        \"id\": \"D1\",\n        \"name\": \"D\",\n        \"age\": 27\n    }"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/user/A1",
+			"request": {
+				"url": "http://localhost:8080/user/A1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
